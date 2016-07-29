@@ -1,8 +1,36 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -155px;
+}
+footer, .push {
+	height: 155px; 
 }
 
-a {
-  color: #00B7FF;
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.intro {
+	background-color: #9FB3B2;
+;
+}
+.portrait {
+	text-align: center;
+}
+
+.portrait > img{
+	padding-top: 25px;
+	height:250px;
+	width: 250px;
+	border-radius: 50%;
+}
+
+.projects {
+	background-color: #9fb3b2;
 }
